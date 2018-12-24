@@ -43,6 +43,12 @@ const onSecond = function() {
     secs0: secs0,
     secs1: secs1
   };
+
+  Object.keys(digits).forEach((digitKey) => {
+    const digitDiv = document.querySelector(`#${digitKey}`);
+    const digitValue = digits[digitKey];
+    digitDiv.textContent = `${digitValue}`;
+  });
   console.log(digits);
 
 }
