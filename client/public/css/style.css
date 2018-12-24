@@ -6,21 +6,70 @@
 
 html {
   font-size: 16px;
-  background-color: wheat;
+  background-color: white;
 }
 
 content {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .days,
 .hours,
 .mins,
 .secs {
-  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-right: 1rem;
 }
 
 .digit {
   display: inline-block;
+}
+
+img {
+  width: 157px;
+  height: 263px;
+  transform: scale(0.5);
+}
+
+img.digit_0 {
+  background-image: url('../images/digit0.png');
+}
+
+img.digit_1 {
+  background-image: url('../images/digit1.png');
+}
+
+img.digit_2 {
+  background-image: url('../images/digit2.png');
+}
+
+img.digit_3 {
+  background-image: url('../images/digit3.png');
+}
+
+img.digit_4 {
+  background-image: url('../images/digit4.png');
+}
+
+img.digit_5 {
+  background-image: url('../images/digit5.png');
+}
+
+img.digit_6 {
+  background-image: url('../images/digit6.png');
+}
+
+img.digit_7 {
+  background-image: url('../images/digit7.png');
+}
+
+img.digit_8 {
+  background-image: url('../images/digit8.png');
+}
+
+img.digit_9 {
+  background-image: url('../images/digit9.png');
 }

@@ -46,10 +46,12 @@ const onSecond = function() {
 
   Object.keys(digits).forEach((digitKey) => {
     const digitDiv = document.querySelector(`#${digitKey}`);
+    digitDiv.innerHTML = '';
     const digitValue = digits[digitKey];
-    digitDiv.textContent = `${digitValue}`;
+    const digitImageDiv = document.createElement("img");
+    digitImageDiv.className = `digit_${digitValue}`;
+    digitDiv.appendChild(digitImageDiv);
   });
-  console.log(digits);
 
 }
 
