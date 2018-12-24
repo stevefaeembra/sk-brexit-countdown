@@ -22,6 +22,20 @@ const onSecond = function() {
   const whole_seconds = parseInt(diffAfterHours - (whole_mins*60.0));
   console.log(`${whole_days} Days ${whole_hours} Hours ${whole_mins} Mins ${whole_seconds} secs`);
 
+  // as there's less than 100 days to brexit, just need 2 digits even for days
+
+  const days0 = parseInt(whole_days/10);
+  const days1 = parseInt(whole_days%10);
+  const hours0 = parseInt(whole_hours/10);
+  const hours1 = parseInt(whole_hours%10);
+  const mins0 = parseInt(whole_mins/10);
+  const mins1 = parseInt(whole_mins%10);
+  const secs0 = parseInt(whole_seconds/10);
+  const secs1 = parseInt(whole_seconds%10);
+
+  const digits = [days0,days1,hours0,hours1,mins0,mins1,secs0,secs1];
+  console.log(digits);
+
 }
 
 document.addEventListener('DOMContentLoaded', () => {
