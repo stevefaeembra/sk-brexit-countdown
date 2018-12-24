@@ -1,6 +1,6 @@
 const onSecond = function() {
   const target = new Date(2019,2,29,23,0,0);
-  const now = new Date();
+  const now    = new Date();
 
   const diff = target - now;
   const diff_secs = diff/1000.0;
