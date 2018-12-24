@@ -33,7 +33,16 @@ const onSecond = function() {
   const secs0 = parseInt(whole_seconds/10);
   const secs1 = parseInt(whole_seconds%10);
 
-  const digits = [days0,days1,hours0,hours1,mins0,mins1,secs0,secs1];
+  const digits = {
+    days0: days0,
+    days1: days1,
+    hours0: hours0,
+    hours1: hours1,
+    mins0: mins0,
+    mins1: mins1,
+    secs0: secs0,
+    secs1: secs1
+  };
   console.log(digits);
 
 }
