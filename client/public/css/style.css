@@ -8,3 +8,19 @@ html {
   font-size: 16px;
   background-color: wheat;
 }
+
+content {
+  display: flex;
+  flex-direction: row;
+}
+
+.days,
+.hours,
+.mins,
+.secs {
+  margin: 1rem;
+}
+
+.digit {
+  display: inline-block;
+}
