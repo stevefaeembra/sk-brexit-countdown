@@ -48,8 +48,8 @@ const onSecond = function() {
     const digitDiv = document.querySelector(`#${digitKey}`);
     digitDiv.innerHTML = '';
     const digitValue = digits[digitKey];
-    const digitImageDiv = document.createElement("img");
-    digitImageDiv.className = `digit_${digitValue}`;
+    const digitImageDiv = document.createElement("h1");
+    digitImageDiv.textContent=`${digitValue}`;
     digitDiv.appendChild(digitImageDiv);
   });
 
