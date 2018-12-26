@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -w",
-    "start": "node ./client/src/app.js",
+    "start": "webpack && node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
