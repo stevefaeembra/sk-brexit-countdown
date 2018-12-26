@@ -11,13 +11,15 @@ html {
 }
 
 h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
 }
 
 content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .days,
@@ -25,6 +27,7 @@ content {
 .mins,
 .secs {
   display: flex;
+  font-size: 6rem;
   flex-direction: row;
   margin-right: 2rem;
   margin-bottom: 2rem;
@@ -33,11 +36,21 @@ content {
 
 .digit {
   display: inline;
+  font-size: 8rem;
+  color: maroon;
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+.digit h1 {
+  font-size: 4rem;
+}
+
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.2em;
 }
 
 body {
