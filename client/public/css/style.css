@@ -29,12 +29,11 @@ content {
   margin-right: 2rem;
   margin-bottom: 2rem;
   border: 4px solid black;
-  border-bottom: 8px solid black;
   box-shadow: 0px 0px 18px black;
 }
 
 .digit {
-  display: inline-block;
+  display: inline;
 }
 
 h1 {
@@ -44,11 +43,13 @@ h1 {
 body {
   width: 90%;
   margin: 0 auto;
+
 }
 
 img {
-  width: 157px;
-  height: 263px;
+  width: 45px;
+  height: 70px;
+  background-size: contain;
 }
 
 img.digit_0 {
