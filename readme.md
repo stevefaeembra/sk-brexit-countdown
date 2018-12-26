@@ -5,6 +5,6 @@ Website which shows a countdown to the Brexit end date.
 
 Updates once a second.
 
-![screenshot](./images/screenshot.png)
+![screenshot2](./images/screenshot.png)
 
 ------
