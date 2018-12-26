@@ -24,7 +24,7 @@ content {
 .mins,
 .secs {
   display: flex;
-  font-size: 6rem;
+  font-size: 2rem;
   flex-direction: row;
   margin-right: 2rem;
   margin-bottom: 2rem;
@@ -37,7 +37,7 @@ content {
 
 .digit {
   display: inline;
-  font-size: 8rem;
+  font-size: 4rem;
   color: maroon;
   font-family: 'Merriweather Sans', sans-serif;
 }
